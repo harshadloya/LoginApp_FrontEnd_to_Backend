@@ -2,11 +2,11 @@
 
 This README would normally document whatever steps are necessary to get your application up and running.
 
-### What is this repository for? ###
+## What is this repository for? ##
 
 Login App Front End - Back End
 
-### How do I get set up? ###
+## How do I get set up? ##
 
 Basic Java Program using Swings and Database.
 
@@ -34,7 +34,7 @@ Then,
 #### To Run: ####
 		java -cp lib\ojdbc6.jar src\edu\assignment\LoginPage
 
-### Who do I talk to? ###
+## Who do I talk to? ##
 
 Harshad Loya
 
