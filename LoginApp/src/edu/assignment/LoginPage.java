@@ -26,8 +26,6 @@ public class LoginPage {
 	
 	private static final Random RANDOM = new SecureRandom();
     private static final String SALT_ALPHABETS = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-    private static final int ITERATIONS = 10000;
-    private static final int KEY_LENGTH = 256;
     private JFrame frame;
     private JLabel lbl;
     
@@ -80,6 +78,7 @@ public class LoginPage {
 		submit.setBounds(110, 210, 100, 30);
 		submit.addActionListener(new ActionListener() {
 			
+			@SuppressWarnings("deprecation")
 			@Override
 			public void actionPerformed(ActionEvent arg0) 
 			{
